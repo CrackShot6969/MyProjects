@@ -32,7 +32,7 @@ namespace VendingDataExtractor
     
         public virtual ObjectResult<Get_SalesEntry_All_Result> Get_SalesEntry_All()
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Get_SalesEntry_All_Result>("Get_SalesEntry_All");
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Get_SalesEntry_All_Result>("Get_SalesEntry_All");s
         }
     }
 }

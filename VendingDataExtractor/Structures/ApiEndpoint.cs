@@ -1,0 +1,31 @@
+﻿namespace VendingDataExtractor.Structures
+{
+    public enum ApiEndpoint
+    {
+        Customers,
+        Products,
+        PurchaseOrders,
+        SalesInvoices,
+        SalesOrders,
+        Salespersons,
+        StockAdjustments,
+        BillOfMaterials,
+        Companies,
+        CustomerTypes,
+        CustomerDeliveryAddresses,
+        DeliveryMethods,
+        PaymentTerms,
+        ProductGroups,
+        SalesOrderGroups,
+        StockOnHand,
+        SupplierReturnReasons,
+        Suppliers,
+        Taxes,
+        UnitOfMeasures,
+        Warehouses,
+        WarehouseStockTransfers,
+        SalesShipments,
+        ShippingCompanies,
+        Desktop
+    }
+}

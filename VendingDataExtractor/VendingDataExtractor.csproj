@@ -62,9 +62,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Get_SalesEntry_All_Result.cs">
-      <DependentUpon>VendingBackEndModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Interfaces\IProductMapper.cs" />
     <Compile Include="Interfaces\ProductMappingManager.cs" />
     <Compile Include="Interfaces\VendingProductMapper.cs" />
@@ -113,44 +110,12 @@
     <Compile Include="Misc\Utilities.cs" />
     <Compile Include="Structures\VendingDataObject.cs" />
     <Compile Include="Structures\VendingDataResult.cs" />
-    <Compile Include="VendingBackEndModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VendingBackEndModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="VendingBackEndModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VendingBackEndModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="VendingBackEndModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VendingBackEndModel.edmx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-    <EntityDeploy Include="VendingBackEndModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>VendingBackEndModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="VendingBackEndModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>VendingBackEndModel.edmx</DependentUpon>
-      <LastGenOutput>VendingBackEndModel.Context.cs</LastGenOutput>
-    </None>
-    <None Include="VendingBackEndModel.edmx.diagram">
-      <DependentUpon>VendingBackEndModel.edmx</DependentUpon>
-    </None>
-    <None Include="VendingBackEndModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>VendingBackEndModel.edmx</DependentUpon>
-      <LastGenOutput>VendingBackEndModel.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
